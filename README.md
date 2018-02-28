@@ -14,3 +14,16 @@ npm install --save express
 ```
 
 * Configure a basic express server.
+
+
+## 01 Todo model
+
+* Add mongoose.
+
+```
+npm install --save mongoose
+```
+
+* Add the models folder.
+* Create index.js and setup mongoose.
+* Create todo.js, setup the todo schema and create the model.
