@@ -27,3 +27,10 @@ npm install --save mongoose
 * Add the models folder.
 * Create index.js and setup mongoose.
 * Create todo.js, setup the todo schema and create the model.
+
+
+## 02 Routes
+
+* Add the routes folder.
+* Create todos.js and add a GET route.
+* Use the todos routes with an "/api/todos" prefix.
