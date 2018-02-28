@@ -34,3 +34,9 @@ npm install --save mongoose
 * Add the routes folder.
 * Create todos.js and add a GET route.
 * Use the todos routes with an "/api/todos" prefix.
+
+
+## 03 Get todos from db
+
+* Add the database.
+* Set the GET route so that it finds all todos from database and returns them in a json object.

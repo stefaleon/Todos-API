@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var todoSchema = new mongoose.Schema({
   name: {
-    type: string,
+    type: String,
     required: 'Name cannot be blank.'
   },
   completed: {
@@ -10,7 +10,7 @@ var todoSchema = new mongoose.Schema({
     default: false
   },
   created_date: {
-    type: date,
+    type: Date,
     default: Date.now
   }
 });
