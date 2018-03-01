@@ -40,3 +40,15 @@ npm install --save mongoose
 
 * Add the database.
 * Set the GET route so that it finds all todos from database and returns them in a json object.
+
+
+## 04 Create todos
+
+* Add body-parser.
+
+```
+npm install --save body-parser
+```
+
+* Require body-parser at index.js and add the use statements in order be able to access the request body.
+* Add the post route in todos.js.
