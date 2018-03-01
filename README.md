@@ -57,3 +57,8 @@ npm install --save body-parser
 ## 05 Get a specific todo
 
 * Add a GET route that will be finding todos by todoId.
+
+
+## 06 Update a todo
+
+* Add a PUT route. Use the findOneAndUpdate express method with the `{new: true}` option in order to respond with the new data in Postman.
