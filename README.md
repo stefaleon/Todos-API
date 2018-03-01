@@ -61,4 +61,9 @@ npm install --save body-parser
 
 ## 06 Update a todo
 
-* Add a PUT route. Use the findOneAndUpdate express method with the `{new: true}` option in order to respond with the new data in Postman.
+* Add a PUT route. Use the *findOneAndUpdate* mongoose method with the `{new: true}` option in order to respond with the new data in Postman.
+
+
+## 07 Delete a todo
+
+* Add a DELETE route. Use the *remove* mongoose method in order to remove a todo with the selected id.
