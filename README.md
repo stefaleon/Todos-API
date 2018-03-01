@@ -52,3 +52,8 @@ npm install --save body-parser
 
 * Require body-parser at index.js and add the use statements in order be able to access the request body.
 * Add the post route in todos.js.
+
+
+## 05 Get a specific todo
+
+* Add a GET route that will be finding todos by todoId.
